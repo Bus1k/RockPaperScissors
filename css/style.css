@@ -12,10 +12,65 @@
 h1 {
     text-align: center;
     margin: 20px 0;
-    font-size: 32px;
+    font-size: 40px;
+    font-weight: 900;
 }
 
-.select h3 {
+h3 {
     text-align: center;
     font-size: 28px;
+    font-weight: 600;
 }
+
+
+.select {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.select img {
+    margin: 10px 0;
+    width: 33%;
+}
+
+.select img:hover {
+    border: 2px solid black;
+}
+
+button.start {
+    display: block;
+    margin: 10px auto;
+    padding: 2px 30px;
+    border: 2px solid black;
+    font-size: 40px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+button.start:hover {
+    background-color: black;
+    color: white;
+}
+
+.panel-left p {
+    margin: 5px;
+}
+
+.panel-left,
+.panel-right {
+    margin: 20px 20px;
+}
+
+.panel-left p,
+.panel-right p {
+    font-size: 18px;
+}
+
+
+.panel-right p {
+    text-align: center;
+}
+
+@media()
