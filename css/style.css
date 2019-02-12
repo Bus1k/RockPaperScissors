@@ -35,9 +35,9 @@ h3 {
     width: 33%;
 }
 
-.select img:hover {
+/* .select img:hover {
     border: 2px solid black;
-}
+} */
 
 button.start {
     display: block;
