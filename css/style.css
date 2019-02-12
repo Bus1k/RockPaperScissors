@@ -80,7 +80,7 @@ button.start:hover {
 
 @media (min-width: 768px) {
     h1 {
-        padding: 15px 10px;
+        padding: 15px;
         font-size: 60px;
     }
 
@@ -123,4 +123,21 @@ button.start:hover {
         flex-basis: 50%;
     }
 
+}
+
+@media (min-width: 1024px) and (orientation: landscape) {
+    h1 {
+        font-size: 50px;
+        padding-top: 10px;
+        margin: 0;
+    }
+
+    .select img {
+        width: 20%;
+        margin: 0 40px;
+    }
+
+    .panel {
+        margin-top: 10px;
+    }
 }
