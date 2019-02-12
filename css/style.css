@@ -141,3 +141,10 @@ button.start:hover {
         margin-top: 10px;
     }
 }
+
+@media(min-width: 1224px) {
+    .select img {
+        width: 15%;
+        margin: 0 40px;
+    }
+}
