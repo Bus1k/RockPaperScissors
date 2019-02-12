@@ -94,6 +94,10 @@ button.start:hover {
         font-size: 50px;
     }
 
+    .select img {
+        width: 20%;
+    }
+
     .panel {
         margin-top: 50px;
         display: flex;
@@ -117,7 +121,6 @@ button.start:hover {
         text-align: center;
         font-size: 35px;
     }
-
 
     .panel-right {
         flex-basis: 50%;
@@ -143,6 +146,10 @@ button.start:hover {
 }
 
 @media(min-width: 1224px) {
+    h1 {
+        font-size: 70px;
+    }
+
     .select img {
         width: 15%;
         margin: 0 40px;

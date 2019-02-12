@@ -60,6 +60,13 @@ function publishResult(player, computer, result) {
     }
 }
 
+//End Game - clean selected sign
+function endGame() {
+    document.querySelector(`[data-option="${game.playerHand}"]`).style.boxShadow = "";
+    game.playerHand = "";
+    game.computerHand = "";
+}
+
 //Game Start - calling other functions
 function startGame() {
     if (!game.playerHand) return alert("Choose a sign!!");
@@ -67,6 +74,7 @@ function startGame() {
     game.computerHand = computerChoice();
     const gameResult = checkResult(game.playerHand, game.computerHand);
     publishResult(game.playerHand, game.computerHand, gameResult);
+    endGame();
 }
 
 hands.forEach(hand => hand.addEventListener('click', handSelection));
