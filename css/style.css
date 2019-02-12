@@ -9,6 +9,10 @@
     background-color: #FFEA00;
 }
 
+body {
+    min-height: 100vh;
+}
+
 h1 {
     text-align: center;
     margin: 20px 0;
@@ -79,7 +83,7 @@ button.start:hover {
 }
 
 footer p {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     left: 0;
 }
@@ -131,7 +135,6 @@ footer p {
     .panel-right {
         flex-basis: 50%;
     }
-
 }
 
 @media (min-width: 1024px) and (orientation: landscape) {
