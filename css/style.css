@@ -54,6 +54,11 @@ button.start:hover {
     color: white;
 }
 
+.panel {
+    display: flex;
+    flex-direction: column;
+}
+
 .panel-left p {
     margin: 5px;
 }
@@ -73,4 +78,49 @@ button.start:hover {
     text-align: center;
 }
 
-@media()
+@media (min-width: 768px) {
+    h1 {
+        padding: 15px 10px;
+        font-size: 60px;
+    }
+
+    h3 {
+        padding-top: 10px;
+        font-size: 45px;
+    }
+
+    button.start {
+        border: 4px solid black;
+        font-size: 50px;
+    }
+
+    .panel {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .panel-left p,
+    .panel-right p {
+        font-size: 30px;
+    }
+
+    .panel-left {
+        flex-basis: 50%;
+    }
+
+    .panel-left p {
+        text-align: center;
+    }
+
+    .panel-left h2 {
+        text-align: center;
+        font-size: 35px;
+    }
+
+
+    .panel-right {
+        flex-basis: 50%;
+    }
+
+}
